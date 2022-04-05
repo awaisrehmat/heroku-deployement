@@ -121,3 +121,8 @@
         background-color: white;
         padding: 3rem;
     }
+
+    /* For mobile phones: */
+[class*="Resume_page"] {
+    width: 100%;
+  }
