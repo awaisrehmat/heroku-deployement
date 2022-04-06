@@ -55,7 +55,7 @@
      {
         border-radius: 50%;
         width: 10rem;
-        height: 15rem;
+        height: 11rem;
         border: 10px solid grey;
      }
     ul
@@ -65,9 +65,8 @@
     
      .Contact li
      {
-    text-align: left;
+    text-align: right;
     padding: 1rem;
-    border-top: 1px solod grey;
     border-bottom: 1px solid grey;
     color: grey;
     
@@ -98,7 +97,7 @@
     .Content
     {
         border-left: 1px solid grey;
-        padding-left: 1rem;
+        padding-left: 2rem;
         margin-left: 1rem;
     }
     
@@ -116,13 +115,43 @@
     .Resume_Page
     {
         display: grid;
-        grid-template-columns: 40% 1fr;
+        grid-template-columns: 45% 1fr;
         grid-gap: 4rem;
         background-color: white;
         padding: 3rem;
+       
     }
 
-    /* For mobile phones: */
-[class*="Resume_page"] {
-    width: 100%;
-  }
+    .Icons>img
+    {
+       
+        width: 30px;
+        height: 35px;
+        float: left;
+    }
+    .Social li
+    {
+        text-align: right;
+        border-bottom: 1px solid grey;
+        margin-top: -0.1rem;
+        padding: 1rem;
+    }
+    .Social ul
+    {
+        margin-top: -2rem;
+    }
+
+    .Profile
+    {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .Education ul
+    {
+        list-style-type: disc;
+    }
+    .Experience ul
+    {
+        list-style-type: disc;
+    }
